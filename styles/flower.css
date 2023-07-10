@@ -3,7 +3,26 @@
     margin: 0;
     padding: 0;
 }
+.section-title {
+    color: #272727;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 43px;
+
+}
 
 /* banner styles */
 .header {
@@ -30,15 +49,7 @@
     margin-bottom: 30px;
 }
 
-.btn-primary {
-    border-radius: 8px;
-    background: #E55473;
-    color: #FFF;
-    font-size: 20px;
-    border: 0;
-    padding: 20px 43px;
 
-}
 
 .banner-img {
     width: 450px;
@@ -55,17 +66,7 @@
     margin: 0px 200px;
 }
 
-.section-title {
-    color: #272727;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
 
-.section-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    margin-bottom: 45px;
-}
 
 .feature-img-container {
     text-align: center;
@@ -75,7 +76,6 @@
 .feature-img {
     width: 250px;
     height: 350px;
-    flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     padding: 70px 50px 0;
 }
@@ -94,4 +94,111 @@
     font-size: 20px;
     text-decoration: underline;
     margin-top: 30px;
+}
+
+/* hot deal styles */
+.hot-deal{
+    display: flex;
+    background-color: #E554730D;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 100px 250px;
+    margin-bottom: 100px;
+}
+.hot-deal-container{
+    text-align: center;
+}
+#off{
+    color: #E55473;
+}
+
+#hot-deal-img{
+    width: 250px;
+    height: 350px;
+}
+
+/* instragram styles */
+.instagram{
+    margin: 0 220px 100px;
+}
+.insta-intro{
+    padding: 0 200px;
+    text-align: center;
+}
+.insta-images{
+    display: flex;
+    justify-content: space-between;
+}
+.insta-img {
+    width: 250px;
+    height: 300px;
+
+}
+
+/* latest deal styles */
+
+.latest-deal{
+    /* justify-content: center; */
+    text-align: center;
+    margin: 0 220px 100px;
+    padding: 100px 200px;
+    background-image: url('../images/Rectangle\ 9.png');
+}
+.deal-mail{
+    display: flex;
+    gap: 10px;
+}
+#mail-box{
+    width: 500px;
+    height: 60px;
+    border: 0;
+    border-radius: 8px;
+}
+
+/* recently sold */
+.recently-sold{
+    margin: 0 220px 100px;
+    text-align: center;
+
+}
+.sold-images{
+    gap: 10px;
+}
+.sold-img{
+    width: 250px;
+    height: 300px;
+    padding-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/* footer styles */
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 100px 500px;
+}
+.footer-title{
+    padding-bottom: 20px;
+}
+#flower {
+    color: #E55473;
+    font-size: 30px;
+}
+
+#shop {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.footer-copy{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    padding-bottom: 20px;
 }
