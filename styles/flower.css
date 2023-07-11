@@ -41,6 +41,7 @@
     color: #272727;
     font-size: 70px;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .banner-description {
@@ -65,8 +66,6 @@
     text-align: center;
     margin: 0px 200px;
 }
-
-
 
 .feature-img-container {
     text-align: center;
@@ -94,6 +93,26 @@
     font-size: 20px;
     text-decoration: underline;
     margin-top: 30px;
+}
+/* delivery & support  */
+.delivery{
+    display: flex;
+    margin: 0 210px 100px;
+    background-color: #2727270D;
+    justify-content: space-between;
+    padding: 70px 150px;
+    text-align: center;
+    border-radius: 8px;
+}
+.delivery-img{
+    width: 88px;
+    height: 88px;
+
+}
+.delivery-title {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 16px;
+    padding-top: 20px;
 }
 
 /* hot deal styles */
@@ -144,6 +163,7 @@
     margin: 0 220px 100px;
     padding: 100px 200px;
     background-image: url('../images/Rectangle\ 9.png');
+    border-radius: 8px;
 }
 .deal-mail{
     display: flex;
@@ -154,6 +174,7 @@
     height: 60px;
     border: 0;
     border-radius: 8px;
+    padding: 0 10px 0 10px;
 }
 
 /* recently sold */
@@ -170,6 +191,7 @@
     height: 300px;
     padding-right: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 30px;
 }
 
 
